@@ -1,0 +1,28 @@
+<div fxLayout="row" fxFlex="100" class="p-24 popup-width" fxLayoutAlign="center center">
+    <div class="w-100">
+        <div fxLayout="row" fxLayoutAlign="end end">
+            <mat-icon *ngIf="data.btnCloseShow" aria-hidden="false" class="cursor-pointer"
+                aria-label="Example close icon" fontIcon="close" (click)="onClose()"></mat-icon>
+        </div>
+        <div fxLayout="column" fxLayoutAlign="space-around center" class="pt-18">
+            <figure>
+                <img *ngIf="data.imageSrc" [src]="data.imageSrc" alt="icon">
+            </figure>
+            <h1 *ngIf="data.title" [ngClass]="'fs-24 text-center'">
+                {{data.title}}
+            </h1>
+            <div *ngIf="data.message" [ngClass]="!data.btnShow ? 'text-center pb-0' : 'text-center mt-16'"
+                [innerHTML]="data.message"></div>
+        </div>
+        <div [ngClass]="!data.btnShow ? 'pb-32 pt-24' : 'pt-24'" fxLayout="row" fxLayoutAlign="center center">
+            <div>
+                <button *ngIf="data.buttonCancelText" mat-button
+                    mat-stroked-button color="warn" [ngClass]="data.btnCancelClass"
+                    (click)="onClose()">{{data.buttonCancelText}}</button>
+                <button *ngIf="data.buttonSuccessText" mat-button
+                    mat-raised-button color="primary" [ngClass]="data.btnSuccessClass"
+                    (click)="onSuccess(data)">{{data.buttonSuccessText}}</button>
+            </div>
+        </div>
+    </div>
+</div>
