@@ -18,9 +18,12 @@ export class HomeScreenPromptService {
   }
 
   promptInstall() {
+    console.log('1')
     if (this.deferredPrompt && isPlatformBrowser(this.platformId)) {
+        console.log('2')
       this.deferredPrompt.prompt();
       this.deferredPrompt.userChoice.then((choiceResult: any) => {
+        console.log('3')
         if (choiceResult.outcome === 'accepted') {
           console.log('User accepted the A2HS prompt');
         } else {

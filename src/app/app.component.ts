@@ -44,6 +44,7 @@ export class AppComponent implements OnInit {
 
     dialogRef.afterClosed().subscribe((result: any) => {
       if (result !== undefined) {
+        console.log('cfasjdfkljlk')
         this.homeScreenPromptService.promptInstall();
       }
     });

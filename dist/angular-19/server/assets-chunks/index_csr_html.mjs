@@ -14,6 +14,6 @@ export default `<!doctype html>
 <body ngcm="">
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<link rel="modulepreload" href="chunk-PNSF6R2D.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-4EGW2KDE.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-PNSF6R2D.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-P2RFM4R7.js" type="module"></script></body>
 </html>
 `;
