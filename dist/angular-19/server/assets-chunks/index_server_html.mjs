@@ -13,6 +13,6 @@ export default `<!doctype html>
 </script>
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-LWRRDFC5.js" type="module"></script></body>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-LVEVBPGR.js" type="module"></script></body>
 </html>
 `;
