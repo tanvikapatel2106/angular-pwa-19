@@ -12,6 +12,6 @@ export default `<!doctype html>
 <body ngcm="">
   <app-root></app-root>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-LVEVBPGR.js" type="module"></script></body>
+<script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-DRJPBGWC.js" type="module"></script></body>
 </html>
 `;
